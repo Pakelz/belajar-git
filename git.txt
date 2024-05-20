@@ -1,0 +1,52 @@
+- Git Started
+
+    1. Using Git with Command Line
+        git --version (To check git version and git alrd installed)
+    
+    2. Configure Git
+        git config --global user.name "type name here"
+        git config --global user.email "type email here"
+
+        Note: Use global to set the username and e-mail for every repository on your computer.
+        If you want to set the username/e-mail for just the current repo, you can remove global
+
+    3. Creating Git Folder
+        mkdir belajar-git (makes a new directory)
+        cd belajar-git  (changes the current working directory)
+
+        Note: If you already have a folder/directory you would like to use for Git:
+        Navigate to it in command line, or open it in your file explorer, right-click and select "Git Bash here"
+
+    4. Initialize Git
+        git init
+
+- Git Staging Environment 
+
+    1. Git add New file
+        git add index.html (add new file and staged)
+        git status (to check file added to the staging environment)
+
+    2. Git add more than one file
+        git add --all (add all file )
+        git status
+
+- Git Commit 
+
+    1. Git Commit
+        git commit -m "First release of Hello World!" (The commit command performs a commit, and the -m "message" adds a message.)
+
+    2. Git Commit without stage
+        git status --short
+        git commit -a -m "Updated index.html with a new line"
+
+        Warning: Skipping the Staging Environment is not generally recommended.
+        Skipping the stage step can sometimes make you include unwanted changes.
+    
+    3. Git Commit Log
+        git log (To view the history of commits for a repository)
+
+- Git Help 
+
+    1. Git Help
+        git command -help (See all the available options for the specific command)
+        git help --all (See all possible commands)
