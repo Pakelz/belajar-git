@@ -50,3 +50,13 @@
     1. Git Help
         git command -help (See all the available options for the specific command)
         git help --all (See all possible commands)
+
+- Git Branch
+
+    1. New Git Branch 
+        git branch hello-world-images (To create new branch)
+        git branch (To check/ confrim new branch created)
+        git checkout hello-world-images (To move the current branch to hello-world-images)
+
+    2. Emergency Branch
+        git checkout -b emergency-fix (To create and move to branch emergency-fix)
