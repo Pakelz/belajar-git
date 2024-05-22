@@ -60,3 +60,39 @@
 
     2. Emergency Branch
         git checkout -b emergency-fix (To create and move to branch emergency-fix)
+
+- Git Branch Merge 
+
+    1. Merge Branch
+        git merge emergency-fix (To merge emergency-fix to the checkout branch)
+        git branch -d emergency-fix (To delete branch emergency-fix)
+    2. Merge Conflict
+        https://www.w3schools.com/git/git_branch_merge.asp?remote=github
+
+- GitHub Get Started
+
+    1. Create a Repository on GitHub 
+
+    2. Push Local Repository to GitHub
+        git remote add origin git@github.com:Pakelz/belajar-git.git (Using SSH)
+        git push --set-upstream origin master or git push -u origin master
+        
+
+- Git Pull from Github 
+
+    1. Git Fetch
+        git fetch origin (To gets all the change history of a tracked branch/repo)
+        git log origin/master 
+        git diff origin/master (To verify by showing the differences between our local master and origin/master)
+
+    2. Git Merge
+        git merge origin/master (To combines the current branch, with a specified branch.)
+
+    3. Git Pull
+        git pull origin (To update our local Git)
+
+- Git Push to GitHub
+
+    1. Push Changes to GitHub
+        git commit -a -m "message here" 
+        git push origin 
