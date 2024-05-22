@@ -96,3 +96,22 @@
     1. Push Changes to GitHub
         git commit -a -m "message here" 
         git push origin 
+
+- Git GitHub Branch
+
+    1. Pulling a Branch from GitHub
+        git pull 
+        git status
+        git branch
+        git branch -a (To see all local and remote branch) note : branch -r is for remote only.
+        git checkout html-skeleton ; note : html-skeleton is branch we created on GitHub
+        git pull
+
+    2. Push a Branch to GitHub
+        git checkout -b update-readme
+        git status
+        git add README.md
+        git status
+        git commit -m "message here"
+        git push origin update-readme (To push the branch from our local Git repo to GitHub)
+        
