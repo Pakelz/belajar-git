@@ -115,3 +115,20 @@
         git commit -m "message here"
         git push origin update-readme (To push the branch from our local Git repo to GitHub)
         
+- Github Contribute
+
+    1. Github Fork
+        https://www.w3schools.com/git/git_remote_fork.asp?remote=github
+    
+    2. Git Clone from GitHub
+        git clone https://github.com/w3schools-test/w3schools-test.github.io.git
+        Note: To specify a specific folder to clone to, add the name of the folder after the repository URL, 
+        like this: git clone https://github.com/w3schools-test/w3schools-test.github.io.git myfolder
+        Configuring Remote :
+        git remote -v
+        git remote rename origin upstream
+        Note: According to Git naming conventions, it is recommended to name your own repository origin, 
+        and the one you forked for upstream
+
+    3. GitHub Send Pull Request
+        https://www.w3schools.com/git/git_remote_send_pull_request.asp?remote=github
